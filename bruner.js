@@ -1,12 +1,4 @@
-import {v4} from 'uuid'
-// import cyanea from 'cyanea'
-// const james = cyanea('tomato')
-const james = "james"
-const ipation = false
+import { v4 } from 'uuid'
+const james = "james" + v4()
 
-export default () => {
-
-  if(false) {
-    console.log(v4())
-  }
-}
+export default james
